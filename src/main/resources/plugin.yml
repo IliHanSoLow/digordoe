@@ -1,0 +1,4 @@
+name: DigOrDoe
+version: '${project.version}'
+main: org.io.digordoe.DigOrDoe
+api-version: '1.20'
