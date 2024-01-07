@@ -2,3 +2,14 @@ name: DigOrDoe
 version: '${project.version}'
 main: org.io.digordoe.DigOrDoe
 api-version: '1.20'
+depend:
+  - "Multiverse-Core"
+
+commands:
+  test:
+    description: Test
+    usage: /test
+
+  home:
+    description: Go to Home World
+    usage: /world
